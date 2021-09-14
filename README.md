@@ -3,9 +3,8 @@ Implementing landing page according to [Figma design](https://www.figma.com/file
 
 Used:
 - HTML
-- CSS
+- CSS/SCSS
 - BEM
+- Adaptive layout
 
   [DEMO LINK](https://poliandiya.github.io/Museum_2/).
-
-
