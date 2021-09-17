@@ -142,26 +142,26 @@
   }
 
   &__painting {
-      background-image: url("../images/header.png");
-      background-size: cover;
-      background-repeat: no-repeat;
+    background-image: url("../images/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
-      right: -5px;
+    right: -4px;
 
-      @include onScreen400 {
-        right: -21px;
-      }
+    @include onScreen400 {
+      right: -20px;
+    }
 
-      @include onScreen769 {
-        right: -41px;
-      }
+    @include onScreen769 {
+      right: -40px;
+    }
 
-      @include onScreen820 {
-        right: -21px;
-      }
+    @include onScreen820 {
+      right: -20px;
+    }
 
-      @include onScreen1025 {
-        right: -56px;
-      }
+    @include onScreen1025 {
+      right: -55px;
+    }
   }
 }
