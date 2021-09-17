@@ -7,4 +7,4 @@ Used:
 - BEM
 - Adaptive layout
 
-  [DEMO LINK](https://poliandiya.github.io/Museum_landing/)
+  [DEMO LINK](https://poliandiya.github.io/Museum-landing/)
