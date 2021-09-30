@@ -17,7 +17,6 @@
   }
 
   &__text {
-    align-items: flex-start;
     margin: 0 auto;
 
     @include onScreen400 {
@@ -44,6 +43,7 @@
   }
 
   &__subtext {
+    text-align: left;
     width: 90%;
 
     @include onScreen400 {
@@ -56,13 +56,16 @@
   }
 
   &__form {
-    justify-content: flex-end;
-    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     transform: translateY(30%);
     margin: 0 auto;
+    max-width: 400px;
 
     @include onScreen769 {
-      width: 570px;
+      // margin: 0;
+      // width: 100px;
     }
 
     @include onScreen1025 {
@@ -72,10 +75,9 @@
 
   &__email {
     background-color: transparent;
-    border: none;
+    border: 1px solid transparent;
     height: 48px;
     border-bottom: 1px solid $main-color-light;
-    outline: none;
     font-size: 18px;
 
     @include onScreen400 {
@@ -99,10 +101,10 @@
 
   &__email-button {
     background-color: transparent;
+    width: max-content;
+    height: max-content;
     border: none;
-    align-self: flex-end;
-
-    margin-top: 50px;
+    margin: auto 0;
 
     transition: transform 0.3s;
 
